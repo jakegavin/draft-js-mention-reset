@@ -1492,6 +1492,10 @@ decamelize@^1.0.0, decamelize@^1.1.1, decamelize@^1.1.2:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/decamelize/-/decamelize-1.2.0.tgz#f6534d15148269b20352e7bee26f501f9a191290"
 
+decorate-component-with-props@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/decorate-component-with-props/-/decorate-component-with-props-1.0.2.tgz#5764d3cf6a58685a522201bad31bff0cb531e5fe"
+
 deep-extend@~0.4.0:
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.1.tgz#efe4113d08085f4e6f9687759810f807469e2253"
@@ -1615,6 +1619,35 @@ domutils@1.5.1:
 dotenv@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-2.0.0.tgz#bd759c357aaa70365e01c96b7b0bec08a6e0d949"
+
+draft-js-mention-plugin@beta:
+  version "2.0.0-beta10"
+  resolved "https://registry.yarnpkg.com/draft-js-mention-plugin/-/draft-js-mention-plugin-2.0.0-beta10.tgz#f70869010fb996485fe3439890a0970f734c6e0c"
+  dependencies:
+    decorate-component-with-props "^1.0.2"
+    draft-js ">=0.9.1"
+    find-with-regex "^1.0.2"
+    immutable "~3.7.4"
+    lodash.escaperegexp "^4.1.2"
+    union-class-names "^1.0.0"
+
+draft-js-plugins-editor@2.0.0-beta10:
+  version "2.0.0-beta10"
+  resolved "https://registry.yarnpkg.com/draft-js-plugins-editor/-/draft-js-plugins-editor-2.0.0-beta10.tgz#d8f84199186a651b603e13328dda90d2f800d5ef"
+  dependencies:
+    decorate-component-with-props "^1.0.2"
+    draft-js ">=0.9.1"
+    find-with-regex "^1.0.2"
+    immutable "~3.7.4"
+    union-class-names "^1.0.0"
+
+draft-js@>=0.9.1:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/draft-js/-/draft-js-0.10.0.tgz#29d16191012b932fdab28a9b37ec1538f421abf6"
+  dependencies:
+    fbjs "^0.8.7"
+    immutable "~3.7.4"
+    object-assign "^4.1.0"
 
 duplexer@^0.1.1:
   version "0.1.1"
@@ -2037,7 +2070,7 @@ fb-watchman@^1.8.0, fb-watchman@^1.9.0:
   dependencies:
     bser "1.0.2"
 
-fbjs@^0.8.1, fbjs@^0.8.4:
+fbjs@^0.8.1, fbjs@^0.8.4, fbjs@^0.8.7:
   version "0.8.9"
   resolved "https://registry.yarnpkg.com/fbjs/-/fbjs-0.8.9.tgz#180247fbd347dcc9004517b904f865400a0c8f14"
   dependencies:
@@ -2120,6 +2153,10 @@ find-up@^1.0.0, find-up@^1.1.2:
   dependencies:
     path-exists "^2.0.0"
     pinkie-promise "^2.0.0"
+
+find-with-regex@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/find-with-regex/-/find-with-regex-1.0.2.tgz#d3b36286539f14c527e31f194159c6d251651a45"
 
 flat-cache@^1.2.1:
   version "1.2.2"
@@ -2457,13 +2494,9 @@ https-browserify@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/https-browserify/-/https-browserify-0.0.1.tgz#3f91365cabe60b77ed0ebba24b454e3e09d95a82"
 
-iconv-lite@0.4.13:
+iconv-lite@0.4.13, iconv-lite@~0.4.13:
   version "0.4.13"
   resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.13.tgz#1f88aba4ab0b1508e8312acc39345f36e992e2f2"
-
-iconv-lite@~0.4.13:
-  version "0.4.15"
-  resolved "https://registry.yarnpkg.com/iconv-lite/-/iconv-lite-0.4.15.tgz#fe265a218ac6a57cfe854927e9d04c19825eddeb"
 
 icss-replace-symbols@^1.0.2:
   version "1.0.2"
@@ -2476,6 +2509,10 @@ ieee754@^1.1.4:
 ignore@^3.2.0:
   version "3.2.6"
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-3.2.6.tgz#26e8da0644be0bb4cb39516f6c79f0e0f4ffe48c"
+
+immutable@~3.7.4:
+  version "3.7.6"
+  resolved "https://registry.yarnpkg.com/immutable/-/immutable-3.7.6.tgz#13b4d3cb12befa15482a26fe1b2ebae640071e4b"
 
 imurmurhash@^0.1.4:
   version "0.1.4"
@@ -3201,6 +3238,10 @@ lodash.clonedeep@^3.0.0:
 lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
+
+lodash.escaperegexp@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/lodash.escaperegexp/-/lodash.escaperegexp-4.1.2.tgz#64762c48618082518ac3df4ccf5d5886dae20347"
 
 lodash.isarguments@^3.0.0:
   version "3.1.0"
@@ -4140,7 +4181,7 @@ react-dev-utils@^0.5.2:
     sockjs-client "1.0.1"
     strip-ansi "3.0.1"
 
-react-dom@15.4.2:
+react-dom@^15.4.2:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-15.4.2.tgz#015363f05b0a1fd52ae9efdd3a0060d90695208f"
   dependencies:
@@ -4193,7 +4234,7 @@ react-scripts@0.9.5:
   optionalDependencies:
     fsevents "1.0.17"
 
-react@15.4.2:
+react@^15.4.2:
   version "15.4.2"
   resolved "https://registry.yarnpkg.com/react/-/react-15.4.2.tgz#41f7991b26185392ba9bae96c8889e7e018397ef"
   dependencies:
@@ -4953,6 +4994,10 @@ uglify-to-browserify@~1.0.0:
 uid-number@~0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
+union-class-names@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/union-class-names/-/union-class-names-1.0.0.tgz#9259608adacc39094a2b0cfe16c78e6200617847"
 
 uniq@^1.0.1:
   version "1.0.1"

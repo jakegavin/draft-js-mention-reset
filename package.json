@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "draft-js-mention-plugin": "beta",
+    "draft-js-plugins-editor": "2.0.0-beta10",
     "react": "^15.4.2",
     "react-dom": "^15.4.2"
   },
